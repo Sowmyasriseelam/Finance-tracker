@@ -10,7 +10,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'dev-secret-key-change-in-produ
 
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['finance-tracker-backend-ma71.onrender.com',
+    'localhost',
+    '127.0.0.1',]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
