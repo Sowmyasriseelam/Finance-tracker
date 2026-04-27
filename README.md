@@ -88,5 +88,4 @@ The UI runs at `http://localhost:5173/` (proxies `/api` to Django).
 - ✅ Idempotency (retry-safe submissions)
 - ✅ Validation: positive amount, required date, max_length on description
 - ✅ Category summary view (top 3 shown in dashboard header)
-- ✅ Error and loading states in the UI
-- ✅ JWT auto-refresh on 401
+
