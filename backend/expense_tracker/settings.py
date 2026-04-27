@@ -2,6 +2,8 @@ import os
 from pathlib import Path
 from datetime import timedelta
 
+ALLOWED_HOSTS = ['*']
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'dev-secret-key-change-in-production')
